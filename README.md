@@ -28,7 +28,7 @@ When the reader has completed this journey, they will understand how to:
 
 The intended audience for this journey are developers who want to develop a complete analytics solution on DSX with a custom web user interface. 
 
-![](doc/source/images/architecture1.png)
+![](doc/source/images/architecture.png)
 
 1. The Object storage stores the data.
 2. Data is utilized as csv files.
