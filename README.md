@@ -1,6 +1,6 @@
 # Robotic AI agent
 
-This journey takes you through end to end flow of steps in building an interactive interface between NAO Robot and Watson Conversation API. The conversation API through Node Red Flow  further linked to a Data Science Experience(DSX) Jupyter Notebook. The combination of Robot, Conversation, nodered flow and DSX is used to interact with the Robot to query data driven calculations which are inferenced and intent derived through conversation API and passed onto DSX to perform real time calculation on data. The Robotic AI agent provides interactivity and Conversation API and DSX provide intent driven quick access and calculations on data.
+This journey takes you through end to end flow of steps in building an interactive interface between NAO Robot and Watson Conversation API. Nao Robot listen the vocal query and converts it into text and sends it to Node Red Flow. The Node Red Flow uses Watson Conversation API to break and map the text in to intents and entities for which it has been trained already. The conversation API through Node Red Flow further linked to a Jupyter Notebook in Data Science Experience(DSX). In this notebook statistical analysis is performed on the finantial data set. The result of the query is now again sent back to Node Red Flow. Which is transfered to Nao Robo and it speaks the result. 
 
 This journey is the combination of following tasks:
 
@@ -8,10 +8,10 @@ This journey is the combination of following tasks:
 
 * Node Red Flow
 
-* Trigger the execution of Python code in a Jupyter Notebook on IBM Data Science Experience from a custom web user interface
-* Visualize the response from the Python code execution in a Jupyter Notebook on IBM Data Science Experience on the custom web user interface
+* Conversation API
 
-In this developer journey we will demonstrate the use of Node-RED to invoke the analytics workflows in Jupyter notebooks on IBM Data Science experience and also to render a custom web user-interface with minimal programming. 
+* Statistical Analysis in Jupitor Notebook
+
 
 #### What is Node-RED?
 Node-RED is a tool for wiring together APIs and online services on Bluemix. The APIs and online services are configured as nodes that can be wired to orchestrate a workflow. It is also a web server where the UI solution can be deployed. It has nodes that support integration with many database services, watson services and analytics services.
