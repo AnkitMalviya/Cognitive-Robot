@@ -6,7 +6,7 @@ This journey is the combination of following tasks:
 
 * robo - CORIOGRAPHY
 
-* 
+* Node Red Flow
 
 * Trigger the execution of Python code in a Jupyter Notebook on IBM Data Science Experience from a custom web user interface
 * Visualize the response from the Python code execution in a Jupyter Notebook on IBM Data Science Experience on the custom web user interface
@@ -216,4 +216,3 @@ The `<NODERED_BASE_URL>` is the base URL noted in section [Note the websocket UR
 
 [Apache 2.0](LICENSE)
 
-"# Cognitive-Robot" 
